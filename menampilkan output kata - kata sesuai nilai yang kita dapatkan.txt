@@ -1,0 +1,9 @@
+Menampilkan output kata - kata sesuai nilai yang kita dapatkan
+
+Store "score" to any number
+
+If "score" <70
+  Do "Learn more"
+Else "score" >70
+  Do "Reward my self"
+Do "Continue with life..."

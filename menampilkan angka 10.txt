@@ -1,0 +1,10 @@
+Menampilkan angka 10
+
+store "number" with 1
+
+while "number" <11
+Add "number" +1
+
+Display number 10
+
+		

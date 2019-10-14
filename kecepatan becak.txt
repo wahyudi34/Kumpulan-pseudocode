@@ -1,0 +1,29 @@
+Sebuah becak ketika dikayuh oleh pemiliknya yang tidak membawa penumpang memiliki kecepatan 20 km/jam. Jumlah 
+penumpang yang bisa dibawa oleh becak tersebut bervariasi (maksimal 4 orang) dan kecepatan ketika becak itu di-
+kayuh mengalami penurunan:
+
+1. Lebih daru 2 orang kecepatan becak berkurang 5 km/jam 
+2. Maksimal penumpang kecepatan becak berkurang 7 km/jam
+3. Selain itu kecepatan becak hanya berkurang 2 km/jam
+
+Tampilkan kecepatan becak sekarang jika hanya membawa x penumpang
+
+Note: x bisa di isi nilai berapa saja (Maksimal 4)
+
+
+Contoh pseudocode:
+
+Store "kecepatan" to 20km
+store "penumpang" to 0,1,2,3,4
+ 
+If "penumpang"to <=2 orang
+	Calculate "penumpang"to 20 - 2 km
+	Display "18 km"
+else if "penumpang" to 4<penumpang>2 orang
+	Calculate "penumpang" to 20 - 5 km
+	Display "15 km"
+else if "penumpang" to =4 orang 
+	Calculate "penumpang"to 20 - 7 km
+	Display "13 km" 
+else "penumpang" to >4 orang
+	Display "Ban becaknya bocor"
